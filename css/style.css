@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
+    text-decoration: none !important;
+    list-style: none !important;
     box-sizing: border-box;
 
 }
@@ -15,12 +15,24 @@ body{
 }
 .header_top{
     width: 100%;
-    height: 60px;
-    background-color: white;
-    position: fixed;
-    z-index: 1000;
+    height: auto;
+    background-color: #e0e0de;
+    /* position: fixed;
+    z-index: 1000; */
 
 
+}
+.header_top .collapse .navbar-tem{
+    width: 100%;
+}
+.header_top .collapse .navbar-tem .nav-item .nav-link{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+.header_top .collapse .navbar-tem .nav-item .nav-tem{
+    border: 2px solid #000;
+    border-radius: 30px;
 }
 .header_middle{
     width: 100%;
@@ -28,7 +40,79 @@ body{
     background: url('../img/1111.jpg')no-repeat center center / cover;
 
 }
+.header_middle img{
+    margin-top: 25%;
+    border-radius: 50%;
+    border: 5px solid #241cec;
+}
+
+.mt-t{
+    margin-top: 25%;
+}
+.header_middle h2{
+    font-size:  80px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.header_middle h1{
+    font-size:  90px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    transition: 900ms;
+
+}
+.header_middle h1:hover{
+    color: rgba(255, 255, 255, 0.363);
+    cursor: pointer;
+}
+.header_middle a{
+   font-size: 60px;
+   color: white;
+   padding: 2px 30px 15px 30px;
+   border: 3px solid white;
+   border-radius: 60px;
+   transition: 900ms;
+  
+}
+.header_middle a:hover{
+    background-color: rgba(255, 255, 255, 0.616);
+    color: rgba(0, 0, 0, 0.288);
+    
+}
+:focus{
+    outline: none !important;
+}
 .header_bottom{
     width: 100%;
-    height: 60px;
+    height: auto;
+    background: #e0e0de;
+}
+.header_bottom input{
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: transparent;
+    
+}
+.header_bottom input:focus{
+    border: 2px solid black !important;
+    box-shadow: none;
+    background: transparent;
+}
+.header_bottom .tem{
+    background: transparent;
+    font-size: 22px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.main_top{
+    width: 100%;
+    height: 89vh;
+    background: url('../img/ll.jpg') no-repeat center center / cover;
 }
