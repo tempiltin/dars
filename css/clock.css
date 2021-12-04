@@ -1,11 +1,25 @@
-.conclock{
-    /* transform: translateX(-50%) translateX(-50%); */
-    text-align: center;
-    margin: 50px auto;
-    background: #ddd;
-    border: 1px solid #999;
-    box-shadow: 0 0 5px 3px #ccc;
+.Calindartempiltin{
+    width: 100%;
+  
+    margin-top: 25%;
+    margin-bottom: 25%;
+    /* border: 2px solid white; */
+    background: rgba(0, 0, 0, 0.288);
 }
-.info{
-    font-size: 80px;
+#monthName{
+    text-align: center;
+    padding: 0px 25% 15px 25%;
+    background: rgba(0, 0, 0, 0.562);
+}
+#dayName{
+    text-align: center;
+    color: white;
+}
+#dayNumber{
+    text-align: center;
+    margin: 0;
+}
+#year{
+    text-align: center;
+    padding-bottom: 50px;
 }
