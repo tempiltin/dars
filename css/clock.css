@@ -1,0 +1,11 @@
+.conclock{
+    /* transform: translateX(-50%) translateX(-50%); */
+    text-align: center;
+    margin: 50px auto;
+    background: #ddd;
+    border: 1px solid #999;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+.info{
+    font-size: 80px;
+}
