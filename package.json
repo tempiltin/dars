@@ -65,6 +65,7 @@
     "raw-body": "^2.4.2",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
+    "sass": "^1.45.1",
     "send": "^0.17.1",
     "serve-static": "^1.14.1",
     "setprototypeof": "^1.2.0",
