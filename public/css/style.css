@@ -17,8 +17,7 @@ body{
     width: 100%;
     height: auto;
     background-color: #e0e0de;
-    /* position: fixed;
-    z-index: 1000; */
+   
 
 
 }
@@ -120,7 +119,7 @@ body{
     
 }
 .main_top h2{
-    color: #ffffffa6;
+    color: #e0e0de;
     font-size: 70px;
     font-weight: 800;
     text-align: center;
@@ -130,7 +129,7 @@ body{
     cursor: pointer;
     letter-spacing: .15em;
     text-shadow: 
-       1px -1px 0     #095fa5,
+       1px -1px 0     #537088,
        -4px 4px 1px   #19197e, 
        -8px 8px 1px   #53a803,
        -12px 12px 1px   #ff0425, 
@@ -198,4 +197,26 @@ body{
     width: 100%;
     height: 88.6vh;
     background: url('../img/1111.jpg')no-repeat center center / cover;
+}
+
+/*================================================== about(30-yanvar soat 16.03) ========================================== */
+.PortImg{
+    height: 170px;
+}
+.bl{
+    margin-bottom: 15px;
+}
+::-webkit-scrollbar {  width: 10px;}
+::-webkit-scrollbar-thumb {  background: rgba(0, 0, 0, 0.616);  border-radius: 15px;}
+footer{
+    width: 100%;
+    height: auto;
+    background: #e0e0de;
+    
+}
+.credits{
+    text-align: center;
+}
+footer ul li a{
+    color: #000;
 }
