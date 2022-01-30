@@ -1,0 +1,6 @@
+HOST=localhost
+PORT=3000
+MONGOURI=mongodb+srv://shukurov:1234qwer123@cluster0.wzpci.mongodb.net/MyBlogDateBase
+
+
+
